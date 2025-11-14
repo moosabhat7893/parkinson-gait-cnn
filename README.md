@@ -1,7 +1,5 @@
 # Gait Classification Using 1D CNN (Daphnet Freezing of Gait Dataset)
 
-
-
 This project implements a 1D Convolutional Neural Network (CNN)
 to classify gait patterns and detect Freezing of Gait (FOG) episodes 
 using wearable inertial sensor data from the Daphnet Freezing of Gait Dataset.
@@ -15,6 +13,16 @@ Left Leg (LL), Right Leg (RL), and Waist (WA) sensors at a sampling rate of 100 
 Each .txt file includes a timestamp, 9 accelerometer features 
 (LL_x, LL_y, LL_z, RL_x, RL_y, RL_z, WA_x, WA_y, WA_z), and a gait label.
 After merging all files, the dataset shape becomes (1917887, 11).
+
+# Dataset Download Instructions
+The Daphnet Freezing of Gait Dataset is not included in this repository due to size restrictions.
+Download it from the official source:
+**Dataset Link**:
+(https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait)
+
+After downloading:
+Extract the dataset
+Copy all .txt files into the /data folder (create it if it doesn't exist)
 
 # Data Processing
 
