@@ -42,6 +42,11 @@ The model was trained for 20 epochs using Adam optimizer and sparse categorical
 crossentropy loss. Results show stable performance across runs with:
 Test Accuracy: ~89–90%
 Test Loss: ~0.31–0.34
+# Model Accuracy
+
+This plot shows the training and validation accuracy of the 1D CNN model.
+
+![Model Accuracy](modelaccuracy.png)
 
 # Future Applications
 
