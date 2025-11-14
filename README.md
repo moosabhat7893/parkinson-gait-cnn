@@ -9,7 +9,7 @@ gait into three states: 0 – Normal Walking, 1 – Pre-Freezing, and 2 – Free
 # Dataset Information
 
 The dataset contains tri-axial accelerometer signals recorded from
-Left Leg (LL), Right Leg (RL), and Waist (WA) sensors at a sampling rate of 100 Hz.
+Left Leg (LL), Right Leg (RL), and Waist (WA) sensors at a sampling rate of 64 Hz.
 Each .txt file includes a timestamp, 9 accelerometer features 
 (LL_x, LL_y, LL_z, RL_x, RL_y, RL_z, WA_x, WA_y, WA_z), and a gait label.
 After merging all files, the dataset shape becomes (1917887, 11).
